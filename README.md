@@ -2,7 +2,7 @@
 
 ![screenshot](./assets/images/screenshot.png)
 
-> A solo project of a tribute page following the guidelines from the freeCodeCamp [Build a Product Landing Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page)
+> A solo project of a tribute page following the guidelines from the freeCodeCamp [Build a Product Landing Page](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page) and used the informations of the [Baldurs Gate Wiki](https://baldursgate.fandom.com/wiki/Baldur%27s_Gate_Wiki) official website.
 
 ## Built With
 
