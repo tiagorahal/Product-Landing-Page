@@ -18,3 +18,7 @@
 .img-icon {
   display: none;
 }
+
+.info-main {
+  max-width: 850px;
+}
