@@ -1,6 +1,3 @@
-@media (min-width: 576px) { ... }
-
-
 @media (min-width: 768px) {
   .nav-link {
     font-size: 1.1em;
@@ -22,10 +19,10 @@
 }
 
 
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+  .align-box {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
 
-
-@media (min-width: 1200px) { ... }
-
-
-@media (min-width: 1400px) { ... }

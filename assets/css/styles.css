@@ -32,3 +32,23 @@
 .info-main {
   max-width: 850px;
 }
+
+.bottom-box {
+  max-width: 320px;
+  text-align: center;
+}
+
+.align-box {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  max-width: 1024px;
+  margin: auto;
+  
+}
+
+.bg-box {
+  background-color: gray;
+  border: solid black 3px;
+}
