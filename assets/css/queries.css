@@ -5,6 +5,10 @@
   .nav-link {
     font-size: 1.1em;
   }
+
+  #top-form {
+    max-width: 500px;
+  }
 }
 
 
