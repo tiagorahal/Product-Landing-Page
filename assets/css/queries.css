@@ -18,11 +18,9 @@
   }
 }
 
-
 @media (min-width: 992px) {
   .align-box {
     flex-direction: row;
     justify-content: space-around;
   }
 }
-
