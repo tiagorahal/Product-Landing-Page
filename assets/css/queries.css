@@ -9,6 +9,12 @@
   #top-form {
     max-width: 500px;
   }
+
+  .img-icon {
+    display: block;
+    max-width: 70px;
+    max-height: 70px;
+  }
 }
 
 
