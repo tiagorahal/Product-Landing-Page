@@ -15,7 +15,7 @@
 
 ### Setup
 
-* Enter the live version [link](------------------------------)
+* Enter the live version [link](https://tiagorahal.github.io/Product-Landing-Page/)
 
 ## Author
 
