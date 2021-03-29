@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header-fixed {
+  position: fixed;
+  background-color: rgba(182, 179, 179, 0.616);
+}
+
+.nav-link {
+  font-size: 0.9em;
+}
