@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+  .nav-link {
+    font-size: 1.1em;
+  }
+
+  #top-form {
+    max-width: 500px;
+  }
+
+  .img-icon {
+    display: block;
+    max-width: 70px;
+    max-height: 70px;
+  }
+
+  #main-bg {
+    margin-top: 15vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .align-box {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
