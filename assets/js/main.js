@@ -12,6 +12,14 @@ document.getElementById('testing-js').appendChild(footerTesting);
 //button
 let button = document.getElementById('button-js')
 
+function colorChange () {
+  return Math.floor(Math.random() * 256);
+}
+
+/*
 button.addEventListener('click', function() {
   document.getElementById('button-div').style.backgroundColor = 'black';
 });
+*/
+
+
