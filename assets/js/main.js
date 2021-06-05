@@ -11,8 +11,7 @@ document.getElementById('testing-js').appendChild(footerTesting);
 
 //button
 let button = document.getElementById('button-js')
-function clickButton() {
-  document.getElementById('button-div').style.backgroundColor = 'black';
-}
 
-button.onclick = clickButton;
+button.addEventListener('click', function() {
+  document.getElementById('button-div').style.backgroundColor = 'black';
+});
