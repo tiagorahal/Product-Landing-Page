@@ -10,16 +10,12 @@ document.getElementById('testing-js').appendChild(footerTesting);
 
 
 //button
-let button = document.getElementById('button-js')
+let buttonToChange = document.getElementById('button-js');//the button
+let backgroundButton = document.getElementById('button-div');//the div
 
-function colorChange () {
-  return Math.floor(Math.random() * 256);
+function changeBackground() {
+ return backgroundButton.style.backgroundColor = 'red';
 }
 
-/*
-button.addEventListener('click', function() {
-  document.getElementById('button-div').style.backgroundColor = 'black';
-});
-*/
-
+buttonToChange.onclick = changeBackground;
 
