@@ -28,3 +28,5 @@ buttonToChange.onwheel = changeBackground;
 buttonToChange.onmouseover = changeBackground;
 buttonToChange.onmouseout = changeBackground;
 
+buttonToChange.onkeypress = changeBackground;
+
