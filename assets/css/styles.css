@@ -26,12 +26,17 @@
 }
 
 .nav-link {
-  font-size: 0.9em;
+  font-size: 1em;
   color: black;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.7s;
 }
 
 .nav-link:hover {
   color: aliceblue;
+  transition-property: color;
+  transition-duration: 0.7s;
 }
 
 #top-form {
