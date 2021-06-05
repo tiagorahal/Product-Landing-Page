@@ -27,6 +27,11 @@
 
 .nav-link {
   font-size: 0.9em;
+  color: black;
+}
+
+.nav-link:hover {
+  color: aliceblue;
 }
 
 #top-form {
