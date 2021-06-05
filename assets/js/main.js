@@ -12,10 +12,16 @@ document.getElementById('testing-js').appendChild(footerTesting);
 //button
 let buttonToChange = document.getElementById('button-js');//the button
 let backgroundButton = document.getElementById('button-div');//the div
+let randomColor = 'rgb(' + generateRandomNumber() + ',' + generateRandomNumber() + ',' + generateRandomNumber() + ')';
+
+function generateRandomNumber() {
+  return Math.floor(Math.random() * 256);
+}
 
 function changeBackground() {
- return backgroundButton.style.backgroundColor = 'red';
+ return backgroundButton.style.backgroundColor = randomColor;
 }
 
 buttonToChange.onclick = changeBackground;
+
 
