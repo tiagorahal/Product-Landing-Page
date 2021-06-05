@@ -25,6 +25,6 @@ let randomColor = 'rgb(' + generateRandomNumber() + ',' + generateRandomNumber()
 buttonToChange.onclick = changeBackground;
 buttonToChange.onwheel = changeBackground;
 
-
+buttonToChange.onmouseover = changeBackground;
 
 
