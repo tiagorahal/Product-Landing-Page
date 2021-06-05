@@ -7,3 +7,12 @@ let footerTesting = document.createElement('p');
 footerTesting.id = 'text-js=footer';
 footerTesting.innerHTML = 'This is just a test.';
 document.getElementById('testing-js').appendChild(footerTesting);
+
+
+//button
+let button = document.getElementById('button-js')
+function clickButton() {
+  document.getElementById('button-div').style.backgroundColor = 'black';
+}
+
+button.onclick = clickButton;
