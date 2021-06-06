@@ -29,14 +29,13 @@
   font-size: 1em;
   color: black;
   text-decoration: none;
-  transition-property: color;
-  transition-duration: 0.7s;
+  font-weight: bold;
+  transition: color 0.7s linear;
 }
 
 .nav-link:hover {
   color: aliceblue;
-  transition-property: color;
-  transition-duration: 0.7s;
+  transition: color 0.7s linear;
 }
 
 #top-form {
@@ -45,6 +44,12 @@
 
 .img-icon {
   display: none;
+  transition: all 0.4s ease-in-out;
+}
+
+.img-icon:hover {
+  transform: scale(1.8);
+  transition: all 0.4s ease-in-out;
 }
 
 .info-main {
